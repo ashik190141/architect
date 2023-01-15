@@ -232,9 +232,9 @@ nav {
     margin-top: 100px;
 }
 .img-btn{
-    position: absolute;
-    top: 327%;
-    left: 885px;
+    position: relative;
+    top: -12%;
+    left: -12%;
     width: 342px;
     height: 200px;
     background: #FF900E;
@@ -285,7 +285,7 @@ nav {
 }
 /* fact */
 .fact h3{
-    margin-top: 168px;
+    margin-top: 0px;
     font-weight: 700;
     font-size: 45px;
     color: #131313;
