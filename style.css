@@ -309,7 +309,13 @@ nav {
     text-align: center;
     padding: 50px;
     border: 1px solid #FF900E;
-    border-radius: 8px;;
+    border-radius: 8px;
+    transition: width 5s linear 2s;
+}
+.fact-img:hover{
+    background-color: antiquewhite;
+    transform: rotate(45deg);
+    width: 200px;
 }
 .num{
     margin-top: 10px;
@@ -332,5 +338,50 @@ nav {
     .fact-des{
         margin-left: 0px;
         margin-bottom: 20px;
+    }
+}
+/* trainer */
+.topic {
+    font-weight: 600;
+    font-size: 48px;
+    color: #131313;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    margin-top: 100px;
+}
+.collection-img {
+    width: 400px;
+    height: 426px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    background-color: antiquewhite;
+    border-radius: 18px;
+}
+.collection-name {
+    font-weight: 700;
+    font-size: 28px;
+    color: #18191F;
+    margin-bottom: 6px;
+    text-align: center;
+}
+.collections{
+    display: flex;
+    gap:25px;
+    margin-left: 230px;
+}
+@media screen and (max-width:576px){
+    .topic {
+        font-size: 30px;
+        margin-left: 0;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .collections{
+        flex-direction: column;
+        gap:5px;
+        margin-left: 0;
+    }
+    .collection-img{
+        width: 100%;
     }
 }
